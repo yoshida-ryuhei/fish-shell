@@ -93,3 +93,4 @@ complete -f -c bluetoothctl -n "not __fish_seen_subcommand_from $cmds" -a advert
 complete -f -c bluetoothctl -n "__fish_seen_subcommand_from pair trust untrust block unblock connect disconnect" -a "(__fish_list_bluetoothctl_devices)"
 complete -f -c bluetoothctl -n "__fish_seen_subcommand_from show select" -a "(__fish_list_bluetoothctl_controllers)"
 complete -f -c bluetoothctl -n "__fish_seen_subcommand_from power pairable discoverable agent advertize" -a "on off"
+complete -f -c bluetoothctl -n "__fish_seen_subcommand_from devices" -a "Paired Bonded Trusted Connected"           
